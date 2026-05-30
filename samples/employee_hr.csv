@@ -1,0 +1,206 @@
+employee_id,name,department,title,hire_date,salary,age,performance_score,years_experience,is_remote,email,satisfaction_rating,country
+1001,Employee_0,Marketing,Director,2018-01-15,65501.0,37.0,3.0,0,No,emp0@company.com,1.6,SG
+1002,Employee_1,Operations,Senior Engineer,2018-01-27,61933.0,27.0,3.0,8,Yes,emp1@company.com,1.1,SG
+1003,Employee_2,HR,Analyst,2018-02-08,110309.0,30.0,5.0,2,No,emp2@company.com,2.2,SG
+1004,Employee_3,Sales,Director,2018-02-20,83099.0,26.0,3.0,9,No,emp3@company.com,3.8,UK
+1005,Employee_4,Engineering,Lead,2018-03-04,49782.0,34.0,3.0,0,No,emp4@company.com,,SG
+1006,Employee_5,Engineering,Director,2018-03-16,450000.0,42.0,4.0,2,Yes,emp5@company.com,3.7,SG
+1007,Employee_6,Engineering,Lead,2018-03-28,117443.0,27.0,1.0,5,No,emp6@company.com,4.9,SG
+1008,Employee_7,Finance,Senior Engineer,2018-04-09,95649.0,39.0,4.0,10,No,emp7@company.com,,SG
+1009,Employee_8,Sales,Lead,2018-04-21,44612.0,30.0,2.0,2,No,emp8@company.com,3.7,SG
+1010,Employee_9,HR,Analyst,2018-05-03,65315.0,28.0,5.0,6,No,emp9@company.com,2.8,SG
+1011,Employee_10,Engineering,Senior Engineer,2018-05-15,100338.0,34.0,2.0,15,No,emp10@company.com,4.5,SG
+1012,Employee_11,Operations,Analyst,2018-05-27,60846.0,26.0,3.0,6,No,emp11@company.com,1.7,SG
+1013,Employee_12,Finance,Associate,2018-06-08,8000.0,30.0,,1,Yes,emp12@company.com,,SG
+1014,Employee_13,Engineering,Manager,2018-06-20,90492.0,25.0,5.0,0,Yes,emp13@company.com,4.4,SG
+1015,Employee_14,Engineering,Lead,2018-07-02,56461.0,50.0,3.0,14,No,emp14@company.com,4.8,SG
+1016,Employee_15,Engineering,Manager,2018-07-14,73809.0,35.0,3.0,0,No,emp15@company.com,3.7,SG
+1017,Employee_16,Marketing,Manager,2018-07-26,,29.0,2.0,14,No,emp16@company.com,,SG
+1018,Employee_17,Sales,Lead,2018-08-07,54512.0,36.0,4.0,5,No,emp17@company.com,3.5,SG
+1019,Employee_18,Marketing,Senior Engineer,2018-08-19,69948.0,34.0,3.0,19,Yes,emp18@company.com,4.5,SG
+1020,Employee_19,Engineering,Associate,2018-08-31,50044.0,33.0,4.0,11,Yes,emp19@company.com,3.3,SG
+1021,Employee_20,Sales,Analyst,2018-09-12,107648.0,98.0,3.0,35,No,emp20@company.com,1.1,SG
+1022,Employee_21,Engineering,Director,2018-09-24,46397.0,41.0,2.0,3,No,emp21@company.com,4.7,SG
+1023,Employee_22,Engineering,Analyst,2018-10-06,66199.0,30.0,1.0,10,Yes,emp22@company.com,3.8,SG
+1024,Employee_23,Marketing,Director,2018-10-18,77614.0,30.0,3.0,3,No,emp23@company.com,3.7,SG
+1025,Employee_24,Sales,Analyst,2018-10-30,103825.0,32.0,3.0,4,Yes,emp24@company.com,1.9,SG
+1026,Employee_25,Finance,Lead,2018-11-11,46282.0,22.0,2.0,6,No,emp25@company.com,3.6,SG
+1027,Employee_26,Engineering,Associate,2018-11-23,98263.0,22.0,,14,Yes,emp26@company.com,2.6,SG
+1028,Employee_27,Sales,Director,2018-12-05,75204.0,45.0,3.0,28,No,emp27@company.com,3.6,SG
+1029,Employee_28,Sales,VP,2018-12-17,55369.0,48.0,3.0,10,Yes,emp28@company.com,1.4,SG
+1030,Employee_29,Engineering,Senior Engineer,2018-12-29,84242.0,33.0,3.0,3,No,emp29@company.com,3.6,SG
+1031,Employee_30,engineering,Analyst,2019-01-10,78981.0,39.0,,3,Yes,emp30@company.com,5.0,SG
+1032,Employee_31,Engineering,Analyst,2019-01-22,62995.0,37.0,3.0,9,Yes,emp31@company.com,1.2,SG
+1033,Employee_32,Engineering,Director,2019-02-03,76396.0,59.0,2.0,1,Yes,emp32@company.com,4.9,SG
+1034,Employee_33,Operations,Senior Engineer,2019-02-15,67293.0,43.0,2.0,0,No,emp33@company.com,2.6,SG
+1035,Employee_34,Operations,Senior Engineer,2019-02-27,77270.0,33.0,4.0,3,No,emp34@company.com,4.5,SG
+1036,Employee_35,Finance,Lead,2019-03-11,88242.0,27.0,5.0,2,Yes,emp35@company.com,4.1,SG
+1037,Employee_36,Marketing,VP,2019-03-23,106720.0,22.0,3.0,2,No,emp36@company.com,3.3,SG
+1038,Employee_37,Engineering,Lead,2019-04-04,50243.0,36.0,3.0,1,No,emp37@company.com,4.0,SG
+1039,Employee_38,HR,Lead,2019-04-16,117660.0,28.0,4.0,0,No,emp38@company.com,4.5,SG
+1040,Employee_39,Marketing,Lead,2019-04-28,35958.0,23.0,3.0,0,Yes,emp39@company.com,2.6,SG
+1041,Employee_40,Engineering,Lead,2019-05-10,71964.0,29.0,1.0,30,No,emp40@company.com,2.3,SG
+1042,Employee_41,Sales,Lead,2019-05-22,86766.0,26.0,2.0,3,Yes,emp41@company.com,3.7,SG
+1043,Employee_42,Engineering,Associate,2019-06-03,80619.0,48.0,4.0,3,Yes,emp42@company.com,4.2,SG
+1044,Employee_43,Operations,Senior Engineer,2019-06-15,62546.0,42.0,4.0,7,No,emp43@company.com,4.0,SG
+1045,Employee_44,Engineering,Lead,2019-06-27,70837.0,34.0,1.0,1,Yes,emp44@company.com,4.2,SG
+1046,Employee_45, Marketing ,Senior Engineer,2019-07-09,65139.0,46.0,3.0,20,No,emp45@company.com,,SG
+1047,Employee_46,Marketing,Senior Engineer,2019-07-21,63212.0,35.0,,10,No,emp46@company.com,4.3,SG
+1048,Employee_47,Sales,Manager,2019-08-02,91992.0,28.0,,0,No,emp47@company.com,1.5,SG
+1049,Employee_48,Sales,Associate,2019-08-14,82140.0,47.0,1.0,3,No,emp48@company.com,3.2,SG
+1050,Employee_49,Engineering,Lead,2019-08-26,61141.0,39.0,2.0,14,Yes,emp49@company.com,,SG
+1051,Employee_50,Operations,Analyst,2019-09-07,92991.0,26.0,4.0,20,Yes,emp50@company.com,2.3,SG
+1052,Employee_51,Finance,Director,2019-09-19,81145.0,33.0,2.0,4,No,emp51@company.com,2.5,SG
+1053,Employee_52,Operations,VP,2019-10-01,91257.0,,4.0,6,Yes,emp52@company.com,2.6,SG
+1054,Employee_53,Finance,Analyst,2019-10-13,87592.0,23.0,3.0,1,Yes,emp53@company.com,3.8,SG
+1055,Employee_54,Sales,Associate,2019-10-25,58420.0,42.0,2.0,33,Yes,emp54@company.com,2.6,SG
+1056,Employee_55,Operations,Director,2019-11-06,63796.0,50.0,3.0,1,Yes,emp55@company.com,2.8,SG
+1057,Employee_56,Engineering,Associate,2019-11-18,89945.0,23.0,4.0,20,Yes,emp56@company.com,2.0,SG
+1058,Employee_57,Engineering,Senior Engineer,2019-11-30,87207.0,39.0,4.0,7,Yes,emp57@company.com,2.5,SG
+1059,Employee_58,Engineering,Director,2019-12-12,74581.0,29.0,4.0,6,No,emp58@company.com,1.9,SG
+1060,Employee_59,Marketing,Senior Engineer,2019-12-24,77346.0,31.0,3.0,5,No,emp59@company.com,1.3,SG
+1061,Employee_60,SALES,Analyst,2020-01-05,100553.0,30.0,4.0,1,No,emp60@company.com,,SG
+1062,Employee_61,Engineering,Analyst,2020-01-17,63168.0,28.0,3.0,1,Yes,emp61@company.com,,SG
+1063,Employee_62,Finance,Director,2020-01-29,,35.0,3.0,1,Yes,emp62@company.com,3.5,SG
+1064,Employee_63,Marketing,Director,2020-02-10,70956.0,28.0,4.0,1,Yes,emp63@company.com,,SG
+1065,Employee_64,Engineering,Lead,2020-02-22,70646.0,37.0,1.0,10,No,emp64@company.com,2.5,SG
+1066,Employee_65,Sales,Associate,2020-03-05,96975.0,34.0,2.0,3,No,emp65@company.com,4.5,SG
+1067,Employee_66,Engineering,Lead,2020-03-17,91508.0,33.0,3.0,0,Yes,emp66@company.com,3.1,SG
+1068,Employee_67,Finance,Associate,2020-03-29,91270.0,,1.0,24,No,emp67@company.com,2.9,SG
+1069,Employee_68,Engineering,Lead,2020-04-10,101109.0,30.0,2.0,15,Yes,emp68@company.com,1.1,SG
+1070,Employee_69,Operations,Senior Engineer,2020-04-22,75420.0,41.0,3.0,18,No,emp69@company.com,2.4,SG
+1071,Employee_70,Finance,Director,2020-05-04,88639.0,39.0,3.0,35,No,emp70@company.com,2.5,SG
+1072,Employee_71,Engineering,Analyst,2020-05-16,68794.0,27.0,4.0,1,No,emp71@company.com,2.6,SG
+1073,Employee_72,Engineering,Associate,2020-05-28,81483.0,35.0,4.0,3,No,emp72@company.com,,SG
+1074,Employee_73,Finance,Associate,2020-06-09,72397.0,41.0,3.0,9,No,emp73@company.com,3.1,SG
+1075,Employee_74,HR,Analyst,2020-06-21,76939.0,22.0,3.0,8,Yes,emp74@company.com,3.4,SG
+1076,Employee_75,HR,Lead,2020-07-03,86903.0,39.0,3.0,1,No,emp75@company.com,4.1,SG
+1077,Employee_76,Finance,Associate,2020-07-15,58635.0,29.0,3.0,11,Yes,emp76@company.com,4.3,SG
+1078,Employee_77,Engineering,VP,2020-07-27,116847.0,16.0,3.0,1,No,emp77@company.com,3.9,SG
+1079,Employee_78,Marketing,Senior Engineer,2020-08-08,54879.0,28.0,4.0,1,No,emp78@company.com,4.8,SG
+1080,Employee_79,Engineering,Director,2020-08-20,50716.0,22.0,3.0,5,No,emp79@company.com,1.1,SG
+1081,Employee_80,Finance,Analyst,2020-09-01,,22.0,3.0,6,No,emp80@company.com,1.8,SG
+1082,Employee_81,Sales,Director,2020-09-13,90833.0,35.0,3.0,6,No,emp81@company.com,1.0,SG
+1083,Employee_82,Marketing,VP,2020-09-25,,37.0,3.0,0,No,emp82@company.com,3.6,SG
+1084,Employee_83,Engineering,Associate,2020-10-07,87566.0,27.0,5.0,14,No,emp83@company.com,4.6,SG
+1085,Employee_84,Marketing,Associate,2020-10-19,74755.0,40.0,4.0,2,Yes,emp84@company.com,2.0,SG
+1086,Employee_85,Marketing,VP,2020-10-31,57054.0,22.0,2.0,0,Yes,emp85@company.com,4.7,SG
+1087,Employee_86,HR,Analyst,2020-11-12,76516.0,34.0,4.0,15,Yes,emp86@company.com,1.2,SG
+1088,Employee_87,Sales,Senior Engineer,2020-11-24,61456.0,,3.0,21,Yes,emp87@company.com,4.7,SG
+1089,Employee_88,Finance,Manager,2020-12-06,380000.0,29.0,4.0,13,No,emp88@company.com,2.4,SG
+1090,Employee_89,Sales,Analyst,2020-12-18,72058.0,35.0,4.0,11,Yes,emp89@company.com,1.4,SG
+1091,Employee_90,Engineering,Manager,2020-12-30,58490.0,28.0,3.0,7,No,emp90@company.com,2.9,SG
+1092,Employee_91,HR,VP,2021-01-11,68572.0,31.0,1.0,5,Yes,emp91@company.com,2.0,SG
+1093,Employee_92,Finance,Lead,2021-01-23,83258.0,43.0,3.0,0,Yes,emp92@company.com,2.1,SG
+1094,Employee_93,Sales,Manager,2021-02-04,63725.0,30.0,3.0,3,No,emp93@company.com,,SG
+1095,Employee_94,Finance,Senior Engineer,2021-02-16,58555.0,41.0,4.0,3,No,emp94@company.com,4.2,SG
+1096,Employee_95,Sales,Lead,2021-02-28,79873.0,25.0,3.0,2,No,emp95@company.com,,SG
+1097,Employee_96,Sales,Manager,2021-03-12,79899.0,39.0,2.0,8,No,emp96@company.com,2.2,SG
+1098,Employee_97,Marketing,VP,2021-03-24,64861.0,46.0,,4,No,emp97@company.com,,SG
+1099,Employee_98,Engineering,Lead,2021-04-05,65579.0,22.0,5.0,0,Yes,emp98@company.com,3.9,SG
+1100,Employee_99,Engineering,VP,2021-04-17,79640.0,28.0,3.0,1,No,emp99@company.com,2.1,SG
+1101,Employee_100,Engineering,Manager,2021-04-29,46038.0,39.0,2.0,5 years,No,emp100@company.com,2.7,SG
+1102,Employee_101,Sales,VP,2021-05-11,46850.0,33.0,3.0,0,No,emp101@company.com,1.5,SG
+1103,Employee_102,Marketing,Senior Engineer,2021-05-23,60631.0,37.0,,13,Yes,emp102@company.com,1.7,SG
+1104,Employee_103,Sales,Manager,2021-06-04,70731.0,30.0,5.0,4,No,emp103@company.com,3.7,SG
+1105,Employee_104,Operations,Manager,2021-06-16,81218.0,35.0,2.0,4,Yes,emp104@company.com,1.7,SG
+1106,Employee_105,Engineering,Manager,2021-06-28,104507.0,33.0,3.0,6,Yes,emp105@company.com,3.1,SG
+1107,Employee_106,Marketing,Analyst,2021-07-10,92153.0,44.0,3.0,12,Yes,emp106@company.com,3.8,SG
+1108,Employee_107,Finance,Analyst,2021-07-22,71801.0,37.0,3.0,2,No,emp107@company.com,,SG
+1109,Employee_108,Engineering,Analyst,2021-08-03,74619.0,37.0,4.0,7,No,emp108@company.com,,SG
+1110,Employee_109,Engineering,Senior Engineer,2021-08-15,,31.0,4.0,5,No,emp109@company.com,2.0,SG
+1111,Employee_110,Engineering,Lead,2021-08-27,74629.0,31.0,3.0,2,No,emp110@company.com,4.9,SG
+1112,Employee_111,Engineering,VP,2021-09-08,69226.0,31.0,1.0,14,No,emp111@company.com,2.9,SG
+1113,Employee_112,Operations,Associate,2021-09-20,,38.0,2.0,11,Yes,emp112@company.com,4.2,SG
+1114,Employee_113,Finance,Manager,2021-10-02,58455.0,31.0,5.0,7,Yes,emp113@company.com,3.2,SG
+1115,Employee_114,Sales,VP,2021-10-14,85386.0,37.0,4.0,13,No,emp114@company.com,1.2,SG
+1116,Employee_115,Finance,Manager,2021-10-26,105654.0,51.0,3.0,14,Yes,emp115@company.com,,SG
+1117,Employee_116,Finance,Senior Engineer,2021-11-07,72824.0,41.0,4.0,8,No,emp116@company.com,4.8,SG
+1118,Employee_117,Engineering,Manager,2021-11-19,83034.0,32.0,4.0,12,No,emp117@company.com,3.4,SG
+1119,Employee_118,Finance,Analyst,2021-12-01,,44.0,2.0,8,No,emp118@company.com,4.3,SG
+1120,Employee_119,Sales,Associate,2021-12-13,66975.0,31.0,5.0,7,No,emp119@company.com,4.5,SG
+1121,Employee_120,Finance,Director,2021-12-25,79481.0,22.0,3.0,N/A,No,emp120@company.com,1.9,SG
+1122,Employee_121,Finance,Manager,2022-01-06,75251.0,26.0,3.0,9,No,emp121@company.com,1.8,SG
+1123,Employee_122,Marketing,VP,2022-01-18,76953.0,22.0,3.0,1,No,emp122@company.com,3.4,SG
+1124,Employee_123,Engineering,Analyst,2022-01-30,59539.0,32.0,1.0,14,No,emp123@company.com,,SG
+1125,Employee_124,Engineering,Director,2022-02-11,75490.0,35.0,2.0,14,Yes,emp124@company.com,4.4,SG
+1126,Employee_125,Marketing,Associate,2022-02-23,84959.0,48.0,4.0,0,No,emp125@company.com,4.6,SG
+1127,Employee_126,Finance,Director,2022-03-07,104022.0,37.0,2.0,12,No,emp126@company.com,,SG
+1128,Employee_127,Finance,Analyst,2022-03-19,94185.0,33.0,4.0,0,Yes,emp127@company.com,1.9,SG
+1129,Employee_128,Engineering,Lead,2022-03-31,118063.0,41.0,3.0,2,No,emp128@company.com,4.1,SG
+1130,Employee_129,Sales,Lead,2022-04-12,59653.0,22.0,3.0,9,No,emp129@company.com,2.1,SG
+1131,Employee_130,Marketing,Director,2022-04-24,92446.0,36.0,3.0,1,No,emp130@company.com,4.3,SG
+1132,Employee_131,Engineering,Senior Engineer,2022-05-06,78666.0,41.0,3.0,11,Yes,emp131@company.com,,SG
+1133,Employee_132,Engineering,VP,2022-05-18,118796.0,23.0,4.0,12,No,emp132@company.com,3.7,SG
+1134,Employee_133,Marketing,VP,2022-05-30,58834.0,44.0,3.0,4,No,emp133@company.com,1.4,SG
+1135,Employee_134,Operations,Director,2022-06-11,58205.0,37.0,3.0,0,Yes,emp134@company.com,3.5,SG
+1136,Employee_135,Marketing,Manager,2022-06-23,63012.0,,3.0,2,Yes,emp135@company.com,2.8,SG
+1137,Employee_136,Sales,Manager,2022-07-05,32522.0,,4.0,6,No,emp136@company.com,3.3,SG
+1138,Employee_137,HR,VP,2022-07-17,64484.0,53.0,,27,Yes,emp137@company.com,1.7,SG
+1139,Employee_138,Marketing,VP,2022-07-29,59817.0,36.0,4.0,6,No,emp138@company.com,3.9,SG
+1140,Employee_139,Operations,Lead,2022-08-10,78007.0,36.0,3.0,2,No,emp139@company.com,4.5,SG
+1141,Employee_140,Operations,Senior Engineer,2022-08-22,81835.0,31.0,1.0,7,Yes,emp140@company.com,1.9,SG
+1142,Employee_141,Engineering,Analyst,2022-09-03,112523.0,28.0,3.0,5,No,emp141@company.com,1.4,SG
+1143,Employee_142,Sales,Manager,2022-09-15,94008.0,41.0,3.0,10,No,emp142@company.com,1.1,SG
+1144,Employee_143,Marketing,VP,2022-09-27,63461.0,28.0,2.0,0,No,emp143@company.com,3.6,SG
+1145,Employee_144,Engineering,Lead,2022-10-09,57031.0,35.0,3.0,10,Yes,emp144@company.com,3.4,SG
+1146,Employee_145,Engineering,Associate,2022-10-21,84838.0,31.0,3.0,5,No,emp145@company.com,3.2,SG
+1147,Employee_146,Sales,Lead,2022-11-02,,38.0,3.0,23,Yes,emp146@company.com,1.9,SG
+1148,Employee_147,Sales,Manager,2022-11-14,111629.0,37.0,4.0,2,Yes,emp147@company.com,2.6,SG
+1149,Employee_148,Engineering,Manager,2022-11-26,98588.0,43.0,,7,No,emp148@company.com,3.4,SG
+1150,Employee_149,Engineering,Lead,2022-12-08,65616.0,30.0,2.0,18,Yes,emp149@company.com,3.0,SG
+1151,Employee_150,Operations,Analyst,2022-12-20,5500.0,32.0,4.0,0,No,emp150@company.com,5.0,SG
+1152,Employee_151,Engineering,Director,2023-01-01,102077.0,27.0,3.0,19,Yes,emp151@company.com,1.5,SG
+1153,Employee_152,Engineering,Manager,2023-01-13,72709.0,31.0,4.0,8,No,emp152@company.com,3.8,SG
+1154,Employee_153,Sales,Lead,2023-01-25,99756.0,38.0,3.0,0,Yes,emp153@company.com,2.6,SG
+1155,Employee_154,Operations,VP,2023-02-06,43111.0,41.0,3.0,2,No,emp154@company.com,2.7,SG
+1156,Employee_155,Engineering,Lead,2023-02-18,63012.0,27.0,4.0,8,No,emp155@company.com,3.9,SG
+1157,Employee_156,HR,Senior Engineer,2023-03-02,75104.0,41.0,4.0,0,Yes,emp156@company.com,3.8,SG
+1158,Employee_157,Finance,Director,2023-03-14,75939.0,45.0,4.0,6,Yes,emp157@company.com,5.0,SG
+1159,Employee_158,Engineering,Associate,2023-03-26,65998.0,38.0,3.0,2,Yes,emp158@company.com,1.5,SG
+1160,Employee_159,HR,Analyst,2023-04-07,87456.0,50.0,3.0,6,No,emp159@company.com,1.4,SG
+1161,Employee_160,Marketing,Associate,2023-04-19,,28.0,3.0,0,Yes,emp160@company.com,3.9,SG
+1162,Employee_161,Sales,Director,2023-05-01,72152.0,25.0,2.0,14,No,emp161@company.com,3.3,SG
+1163,Employee_162,Sales,Director,2023-05-13,77405.0,22.0,5.0,25,No,emp162@company.com,2.1,SG
+1164,Employee_163,Sales,Director,2023-05-25,85288.0,46.0,2.0,24,Yes,emp163@company.com,,SG
+1165,Employee_164,Engineering,Associate,2023-06-06,89232.0,40.0,5.0,9,No,emp164@company.com,1.3,SG
+1166,Employee_165,Finance,VP,2023-06-18,,34.0,3.0,0,No,emp165@company.com,4.6,SG
+1167,Employee_166,Marketing,Director,2023-06-30,44317.0,37.0,2.0,9,Yes,emp166@company.com,1.8,SG
+1168,Employee_167,Engineering,Lead,2023-07-12,100553.0,25.0,3.0,0,Yes,emp167@company.com,,SG
+1169,Employee_168,Engineering,Associate,2023-07-24,81646.0,54.0,4.0,0,Yes,emp168@company.com,1.9,SG
+1170,Employee_169,Sales,Director,2023-08-05,60030.0,36.0,,2,No,emp169@company.com,2.4,SG
+1171,Employee_170,HR,Lead,2023-08-17,106023.0,35.0,4.0,4,No,emp170@company.com,1.3,SG
+1172,Employee_171,Engineering,VP,2023-08-29,77313.0,40.0,4.0,10,No,emp171@company.com,3.1,SG
+1173,Employee_172,Sales,Senior Engineer,2023-09-10,98585.0,38.0,4.0,8,No,emp172@company.com,1.3,SG
+1174,Employee_173,Engineering,VP,2023-09-22,76350.0,36.0,4.0,4,No,emp173@company.com,4.2,SG
+1175,Employee_174,Sales,Director,2023-10-04,116214.0,28.0,3.0,2,No,emp174@company.com,1.9,SG
+1176,Employee_175,Engineering,Associate,2023-10-16,110106.0,38.0,3.0,35,No,emp175@company.com,3.2,SG
+1177,Employee_176,HR,Manager,2023-10-28,70020.0,50.0,3.0,3,Yes,emp176@company.com,4.5,SG
+1178,Employee_177,Marketing,Director,2023-11-09,94431.0,45.0,5.0,4,Yes,emp177@company.com,3.6,SG
+1179,Employee_178,Operations,Manager,2023-11-21,87907.0,47.0,,1,Yes,emp178@company.com,3.1,SG
+1180,Employee_179,Engineering,Lead,2023-12-03,,30.0,1.0,11,Yes,emp179@company.com,,SG
+1181,Employee_180,Marketing,Senior Engineer,2023-12-15,55701.0,27.0,4.0,8,No,emp180@company.com,2.3,SG
+1182,Employee_181,Engineering,Analyst,2023-12-27,88721.0,33.0,5.0,1,No,emp181@company.com,3.7,SG
+1183,Employee_182,Operations,VP,2024-01-08,96168.0,35.0,2.0,0,Yes,emp182@company.com,5.0,SG
+1184,Employee_183,Finance,Senior Engineer,2024-01-20,39825.0,43.0,3.0,7,Yes,emp183@company.com,,SG
+1185,Employee_184,Engineering,Director,2024-02-01,51334.0,,5.0,7,No,emp184@company.com,,SG
+1186,Employee_185,HR,Manager,2024-02-13,34215.0,47.0,1.0,2,No,emp185@company.com,3.9,SG
+1187,Employee_186,Finance,VP,2024-02-25,69611.0,33.0,4.0,21,Yes,emp186@company.com,2.9,SG
+1188,Employee_187,Sales,Manager,2024-03-08,89350.0,31.0,3.0,1,No,emp187@company.com,,SG
+1189,Employee_188,Sales,Associate,2024-03-20,105047.0,26.0,5.0,3,Yes,emp188@company.com,3.2,SG
+1190,Employee_189,Engineering,Manager,2024-04-01,76481.0,22.0,5.0,20,Yes,emp189@company.com,4.8,SG
+1191,Employee_190,Engineering,Associate,2024-04-13,107572.0,41.0,,3,No,emp190@company.com,1.7,SG
+1192,Employee_191,Finance,Lead,2024-04-25,47397.0,35.0,3.0,7,No,emp191@company.com,3.8,SG
+1193,Employee_192,Operations,VP,2024-05-07,,24.0,4.0,3,Yes,emp192@company.com,1.8,SG
+1194,Employee_193,Sales,VP,2024-05-19,73889.0,24.0,4.0,2,No,emp193@company.com,3.1,SG
+1195,Employee_194,Marketing,Analyst,2024-05-31,82681.0,32.0,3.0,28,No,emp194@company.com,1.4,SG
+1196,Employee_195,Marketing,Director,2024-06-12,74346.0,48.0,4.0,3,No,emp195@company.com,2.8,SG
+1197,Employee_196,HR,Associate,2024-06-24,33651.0,32.0,1.0,15,No,emp196@company.com,4.0,SG
+1198,Employee_197,Finance,Analyst,2024-07-06,73217.0,22.0,,1,No,emp197@company.com,2.4,SG
+1199,Employee_198,Finance,Manager,2024-07-18,48910.0,33.0,3.0,1,No,emp198@company.com,3.7,SG
+1200,Employee_199,Finance,Manager,2024-07-30,88393.0,32.0,2.0,0,No,emp199@company.com,4.2,SG
+1011,Employee_10,Engineering,Senior Engineer,2018-05-15,100338.0,34.0,2.0,15,No,emp10@company.com,4.5,SG
+1012,Employee_11,Operations,Analyst,2018-05-27,60846.0,26.0,3.0,6,No,emp11@company.com,1.7,SG
+1013,Employee_12,Finance,Associate,2018-06-08,8000.0,30.0,,1,Yes,emp12@company.com,,SG
+1014,Employee_13,Engineering,Manager,2018-06-20,90492.0,25.0,5.0,0,Yes,emp13@company.com,4.4,SG
+1015,Employee_14,Engineering,Lead,2018-07-02,56461.0,50.0,3.0,14,No,emp14@company.com,4.8,SG
