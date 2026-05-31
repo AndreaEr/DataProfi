@@ -48,7 +48,9 @@ All analysis is **deterministic and rule-based** - no AI black box. Scoring meth
 ### Option 1: Python Library
 
 ```bash
-pip install dataprofi
+git clone https://github.com/AndreaEr/dataprofi.git
+cd dataprofi
+pip install -e .
 ```
 
 ```python
