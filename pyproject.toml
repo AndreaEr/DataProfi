@@ -40,6 +40,11 @@ dependencies = [
     "thefuzz[speedup]>=0.20",
 ]
 
+[project.urls]
+Homepage = "https://github.com/AndreaEr/dataprofi"
+Repository = "https://github.com/AndreaEr/dataprofi"
+Issues = "https://github.com/AndreaEr/dataprofi/issues"
+
 [project.optional-dependencies]
 dev = [
     "pytest>=7.0",
