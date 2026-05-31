@@ -141,15 +141,16 @@ This drives role-aware scoring: 5% nulls in an ID column is critical; in a text 
 Unlike tools that just say "3 outliers detected", DataProfi explains WHY each value is an outlier:
 
 ```
-Normal range: 30,000 to 120,000 (mean: 75,000)
+Column: salary (employee_hr.csv)
+Normal range: 30,000 to 130,000 (mean: 79,013)
 
 Row 5:  450,000
-  Value 450,000 is above the normal range (30,000 to 120,000).
-  It is 375,000 away from the mean (75,000).
+  Value 450,000 is above the normal range (30,000 to 130,000).
+  It is 370,987 away from the mean (79,013).
 
-Row 12: 8,000
-  Value 8,000 is below the normal range (30,000 to 120,000).
-  It is 67,000 away from the mean (75,000).
+Row 12: 5,500
+  Value 5,500 is below the normal range (30,000 to 130,000).
+  It is 73,513 away from the mean (79,013).
 ```
 
 ### Schema Design (DDL Generation)
@@ -157,16 +158,18 @@ Row 12: 8,000
 Upload a CSV, get a production-ready PostgreSQL schema with constraints, types, and relationship hints:
 
 ```sql
-CREATE TABLE "weather_readings" (
-    "id" SERIAL NOT NULL PRIMARY KEY,
-    "date" TIMESTAMPTZ NOT NULL,
-    "station_name" VARCHAR(64) NOT NULL,
-    "latitude" DOUBLE PRECISION NOT NULL,
-    "longitude" DOUBLE PRECISION NOT NULL,
-    "temperature_c" NUMERIC(3,1),
-    "humidity_pct" NUMERIC(4,1),
-    "rainfall_mm" NUMERIC(3,1) NOT NULL CHECK ("rainfall_mm" >= 0),
-    "wind_speed_kmh" NUMERIC(3,1) NOT NULL CHECK ("wind_speed_kmh" >= 0)
+CREATE TABLE "iot_sensors" (
+    "reading_id" SMALLINT NOT NULL PRIMARY KEY,
+    "timestamp" TIMESTAMPTZ NOT NULL,
+    "sensor_id" VARCHAR(16) NOT NULL,
+    "location" VARCHAR(64) NOT NULL,
+    "grid_x" NUMERIC(4,3) NOT NULL,
+    "grid_y" NUMERIC(4,3) NOT NULL CHECK ("grid_y" >= 0),
+    "temperature_c" NUMERIC(3,1) CHECK ("temperature_c" >= 0),
+    "humidity_pct" NUMERIC(3,1) NOT NULL CHECK ("humidity_pct" >= 0),
+    "co2_ppm" NUMERIC(5,1) CHECK ("co2_ppm" >= 0),
+    "noise_db" NUMERIC(4,1) NOT NULL CHECK ("noise_db" >= 0),
+    "occupancy" BOOLEAN NOT NULL
 );
 ```
 
@@ -183,15 +186,15 @@ Features:
 Auto-detects latitude/longitude columns and explains spatial issues in plain language:
 
 ```
-Spatial Outlier - Row 5: 5307.2 km from centre
-  This point (35.6762, 139.6503) is 5307.2 km away from the data centre
-  (1.3700, 103.8550). Most points are within 447.5 km.
-  This may be a data entry error or a genuinely remote location.
+Column pair: grid_y / grid_x (iot_sensors.csv)
+Total points: 1205 | Centroid: (1.90, 1.90)
 
 Clusters:
-  Cluster 1 - 449 points within ~4.8 km radius
-  Cluster 2 - 360 points within ~4.9 km radius
-  Cluster 3 - 360 points within ~3.6 km radius
+  Cluster 1 - 362 points within ~71.7 km radius
+  Cluster 2 - 300 points within ~91.4 km radius
+  Cluster 3 - 242 points within ~78.9 km radius
+  Cluster 4 - 181 points within ~75.9 km radius
+  Cluster 5 - 120 points within ~56.0 km radius
 ```
 
 ### Cleaning with Before/After Preview
